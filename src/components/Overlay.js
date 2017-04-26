@@ -12,9 +12,14 @@ const StyledOverlay = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   visibility: ${props => props.isVisible ? 'visible' : 'hidden'};
   opacity: ${props => props.isVisible ? 0.8 : 0};
   transition: visibility 0s 1s, opacity 1s linear;
+  @media (max-width: 768px) {
+    opacity: 1;
+    visibility: visible;
+  }
 `;
 
 export default function Overlay (props) {

@@ -52,6 +52,7 @@ class App extends Component {
     return (
       <div style={{ height: '100%' }}>
         <Overlay isVisible={!this.state.position} text={"Obtaining your position..."}/>
+        <Overlay mobile={true} text={"Mobile version not available :("}/>
         <Container>
           <ItalyMap socketConnection={this.props.socketConnection}/>
           <Chat
