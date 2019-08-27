@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const StyledOverlay = styled.div`
   width: 100%;
@@ -14,8 +14,8 @@ const StyledOverlay = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  visibility: ${props => props.isVisible ? 'visible' : 'hidden'};
-  opacity: ${props => props.isVisible ? 0.8 : 0};
+  visibility: ${props => (props.isVisible ? "visible" : "hidden")};
+  opacity: ${props => (props.isVisible ? 0.8 : 0)};
   transition: visibility 0s 1s, opacity 1s linear;
   @media (max-width: 768px) {
     opacity: 1;
@@ -23,12 +23,14 @@ const StyledOverlay = styled.div`
   }
 `;
 
-export default function Overlay (props) {
+const Overlay = props => {
   return (
     <StyledOverlay isVisible={props.isVisible}>
       <div>
         <h2>{props.text}</h2>
       </div>
     </StyledOverlay>
-  )
-}
+  );
+};
+
+export default Overlay;
