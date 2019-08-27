@@ -1,6 +1,15 @@
 {
-  "main.css": "static/css/main.397f1d54.css",
-  "main.css.map": "static/css/main.397f1d54.css.map",
-  "main.js": "static/js/main.d103c356.js",
-  "main.js.map": "static/js/main.d103c356.js.map"
+  "files": {
+    "main.css": "/social-ping/static/css/main.fcdf413f.chunk.css",
+    "main.js": "/social-ping/static/js/main.ea186bef.chunk.js",
+    "main.js.map": "/social-ping/static/js/main.ea186bef.chunk.js.map",
+    "runtime~main.js": "/social-ping/static/js/runtime~main.25b90d7b.js",
+    "runtime~main.js.map": "/social-ping/static/js/runtime~main.25b90d7b.js.map",
+    "static/js/2.796594fc.chunk.js": "/social-ping/static/js/2.796594fc.chunk.js",
+    "static/js/2.796594fc.chunk.js.map": "/social-ping/static/js/2.796594fc.chunk.js.map",
+    "index.html": "/social-ping/index.html",
+    "precache-manifest.2b5e86105af673e7af6214d10d053379.js": "/social-ping/precache-manifest.2b5e86105af673e7af6214d10d053379.js",
+    "service-worker.js": "/social-ping/service-worker.js",
+    "static/css/main.fcdf413f.chunk.css.map": "/social-ping/static/css/main.fcdf413f.chunk.css.map"
+  }
 }
